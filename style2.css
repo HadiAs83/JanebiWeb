@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "Shabnam-FD";
+    src: url(/fonts/Shabnam-FD.woff2) format(woff2);
+}
+
+* {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+    font-family: "Shabnam-FD";
+    box-sizing: border-box;
+}
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    display: flex;
+    gap: 24px;
+
+    /* && */
+    flex-direction: column;
+}
+
+.product{
+    margin: 5px;
+    width: 300px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px 2px 2px rgb(176, 170, 170);
+}
+
+/* && */
+/* چون همه را ب داخل دیو اس اس اس انتقال دادیم نوشتیم */
+.productsss{
+    display: flex;
+    gap: 20px;
+}
+
+
+.img{
+    width: 250px;
+    /* if width=100% تمام صفحه را میگیرد */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+
+.row_one{
+    display: flex;
+    gap: 7px;
+}
+
+.discount{
+    background-color: #b6bceb;
+    color: blue;
+}
+
+.before_price{
+    text-decoration: line-through;
+    font-size: smaller;
+}
+
+.price_in{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.row_two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.name_one{
+    /* padding-top: 20px; */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.discreption{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_one{
+    font-size: 24px;
+    font-size: bold;
+    font-weight: 900;
+}
+
+.text_two{
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+}
